@@ -211,4 +211,8 @@
 
     <!-- Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Three Finger Gesture</string>
+    <string name="three_finger_gesture_summary">Swipe 3 fingers to take a screenshot</string>
 </resources>
