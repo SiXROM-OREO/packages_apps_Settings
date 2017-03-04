@@ -25,6 +25,10 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- SiX Header -->
+        <PreferenceScreen android:key="six_header"
+                android:layout="@layout/six_about_header" />
+
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
