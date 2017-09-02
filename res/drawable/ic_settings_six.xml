@@ -17,10 +17,11 @@
     android:width="24dp"
     android:height="24dp"
     android:viewportWidth="544"
-    android:viewportHeight="544">
+    android:viewportHeight="544"
+    android:tint="?android:attr/colorControlNormal">
 
     <path
-        android:fillColor="?android:attr/colorAccent"
+        android:fillColor="#FFFFFFFF"
         android:pathData="M335.998,256c-17.674,0-32-14.327-31.999-32.001c0-0.585,0.019-1.165,0.049-1.742
 c1.017-23.727,22.606-39.473,40.796-48.569c17.371-8.685,34.551-13.03,35.273-13.211c8.574-2.144,17.26,3.069,19.404,11.642
 c2.141,8.573-3.07,17.259-11.643,19.403c-8.812,2.225-19.262,6.06-28.469,10.675c5.324,5.715,8.586,13.376,8.586,21.803

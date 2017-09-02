@@ -2,6 +2,7 @@
 <!--
 /*
 * Copyright (C) 2017 The halogenOS Project
+* Copyright (C) 2017 SiXROM
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,11 +19,60 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="rom_version_title">S.i.X version</string>
-    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
+    <!-- SiX Main -->
     <string name="six_settings_activity">S.i.X Settings</string>
-    <string name="six_settings_activity_summary">Additional ROM settings</string>
+    <string name="six_settings_activity_summary">Custom ROM options</string>
+
+    <!-- Rom version -->
+    <string name="rom_version_title">S.i.X version</string>
+    <string name="rom_version_default">Unknown</string>
+    <string name="rom_version">S.i.X Version</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor Version</string>
+    <string name="vendor_version_default">Unknown</string>
+
+    <!--SiX Info-->
+    <string name="six_about">About ROM</string>
+    <string name="six_info">S.i.X Center</string>
+	<string name="six_info_summary">OTA updates, changelog and extra links</string>
+	<string name="six_links_title">Helpful Links</string>
+	<string name="six_changelog_title">Changelog</string>
+	<string name="six_changelog_summary">Upcoming changes and progress</string>
+	<string name="six_changelog_url">https://github.com/SiXROM/changelog/blob/oreo/Changelog.md</string>
+	<string name="six_telegram_title">Telegram Chat</string>
+	<string name="six_telegram_summary">Help for S.i.X users</string>
+	<string name="six_telegram_url">https://t.me/joinchat/A7jQhkP8Y8q_tAv4Yy3Qfg</string>
+	<string name="six_gplus_title">Google+ Community</string>
+	<string name="six_gplus_summary">Join for news and updates</string>
+	<string name="six_gplus_url">https://plus.google.com/u/0/communities/108198916369516028494</string>
+    <string name="six_info_browser_error">No Browser found! Please install one, thanks</string>
+    <string name="six_screens_title">Screenshots</string>
+	<string name="six_screens_summary">Screenshot collection</string>
+	<string name="six_screens_url">https://drive.google.com/drive/folders/0B3EKKJ3Wzt6LOVNGTnkxUmJPRjg?usp=sharing</string>
+    <string name="six_theme_title">S.i.X Theme</string>
+	<string name="six_theme_summary">The best theme for subs, hands down</string>
+	<string name="six_theme_url">https://play.google.com/store/apps/details?id=com.r3ds.sixtheme</string>
+    <string name="six_wallpapers_title">Wallpapers</string>
+	<string name="six_wallpapers_summary">Wallpaper collection</string>
+	<string name="six_wallpapers_url">https://drive.google.com/drive/folders/0B3EKKJ3Wzt6LZUVnTndaOHlmRTA?usp=sharing</string>
+	<string name="six_credits">Credits and Thanks</string>
+	<string name="six_developer">S.i.X Official Developer</string>
+	<string name="six_developer_name">Frankie T (aka R3Ds)</string>
+    <string name="six_shamu">Shamu Maintainer</string>
+	<string name="six_shamu_name">R3Ds</string>
+	<string name="six_angler">Angler Maintainer</string>
+    <string name="six_angler_name">Mike-P</string>
+    <string name="six_shoutouts">Shoutouts</string>
+    <string name="six_shoutouts_list">GaryC, Sting5566, Glockman4519, FuckedUpBigtime, TrOjAnUK, MikeyMopar, VicPerriera, RΞVΞN, Beanstown106, SNuzzo, wrongway213, TheDesolateOne, Cemilplt, BobAzzon</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
+
+    <!-- Developer toast -->
+    <string name="show_dev_already_enabled">No need, Development settings are enabled by default.</string>
+
+    <!-- Phone Status -->
+    <string name="device_info_title">Phone Info</string>
 </resources>
