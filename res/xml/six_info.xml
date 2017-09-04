@@ -19,16 +19,26 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/six_info">
 
-    <!-- SiX Header
+    <!-- SiX Header -->
         <PreferenceScreen android:key="six_center_header"
             android:layout="@layout/six_center_header">
             <intent android:action="android.intent.action.VIEW"
             android:data="http://tinyurl.com/yaa4fpc3" />
-        </PreferenceScreen>-->
+        </PreferenceScreen>
 
     <PreferenceCategory
         android:key="six_about"
         android:title="@string/six_about">
+
+        <!-- Changelog -->
+        <Preference
+                android:key="six_changelog"
+                android:title="@string/six_changelog_title"
+                android:summary="@string/six_changelog_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/six_changelog_url" />
+        </Preference>
 
         <!-- ROM version -->
         <com.android.settings.DividerPreference
@@ -52,16 +62,6 @@
     <PreferenceCategory
         android:key="six_links"
         android:title="@string/six_links_title">
-
-        <!-- Changelog -->
-        <Preference
-                android:key="six_changelog"
-                android:title="@string/six_changelog_title"
-                android:summary="@string/six_changelog_summary">
-                <intent
-                    android:action="android.intent.action.VIEW"
-                    android:data="@string/six_changelog_url" />
-        </Preference>
 
         <!-- Google+ -->
         <Preference

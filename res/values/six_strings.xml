@@ -38,7 +38,7 @@
     <string name="six_info">S.i.X Center</string>
 	<string name="six_info_summary">OTA updates, changelog and extra links</string>
 	<string name="six_links_title">Helpful Links</string>
-	<string name="six_changelog_title">Changelog</string>
+	<string name="six_changelog_title">Live Changelog</string>
 	<string name="six_changelog_summary">Upcoming changes and progress</string>
 	<string name="six_changelog_url">https://github.com/SiXROM/changelog/blob/oreo/Changelog.md</string>
 	<string name="six_telegram_title">Telegram Chat</string>
@@ -103,4 +103,8 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
+    <!-- Changelog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_summary">Since the last update</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
