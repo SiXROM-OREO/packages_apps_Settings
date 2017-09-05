@@ -19,9 +19,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/six_info">
 
-    <!-- SiX Header -->
-    <PreferenceScreen android:key="six_center_header"
-        android:layout="@layout/six_center_header" />
+    <!-- SiX Header
+        <PreferenceScreen android:key="six_center_header"
+            android:layout="@layout/six_center_header">
+            <intent android:action="android.intent.action.VIEW"
+            android:data="http://tinyurl.com/yaa4fpc3" />
+        </PreferenceScreen>-->
 
     <PreferenceCategory
         android:key="six_about"

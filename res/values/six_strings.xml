@@ -63,9 +63,9 @@
     <string name="six_shamu">Shamu Maintainer</string>
 	<string name="six_shamu_name">R3Ds</string>
 	<string name="six_angler">Angler Maintainer</string>
-    <string name="six_angler_name">Mike-P</string>
+    <string name="six_angler_name">R3Ds</string>
     <string name="six_shoutouts">Shoutouts</string>
-    <string name="six_shoutouts_list">GaryC, Sting5566, Glockman4519, FuckedUpBigtime, TrOjAnUK, MikeyMopar, VicPerriera, RΞVΞN, Beanstown106, SNuzzo, wrongway213, TheDesolateOne, Cemilplt, BobAzzon</string>
+    <string name="six_shoutouts_list">GaryC, Sting5566, Glockman4519, FuckedUpBigtime, TrOjAnUK, MikeyMopar, VicPerriera, RΞVΞN, Beanstown106, SNuzzo, wrongway213, TheDesolateOne, Cemilplt, BobAzzon, MikeP</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
