@@ -27,6 +27,11 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </Preference>
 
+    <ListPreference
+        android:key="theme"
+        android:title="@string/device_theme"
+        android:summary="@string/summary_placeholder" />
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
@@ -136,11 +141,6 @@
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
-
-    <ListPreference
-        android:key="theme"
-        android:title="@string/device_theme"
-        android:summary="@string/summary_placeholder" />
 
     <Preference
         android:key="vr_display_pref"
