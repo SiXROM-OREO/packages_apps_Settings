@@ -40,10 +40,10 @@
 	<string name="six_links_title">Helpful Links</string>
 	<string name="six_changelog_title">Live Changelog</string>
 	<string name="six_changelog_summary">Upcoming changes and progress</string>
-	<string name="six_changelog_url">https://github.com/SiXROM/changelog/blob/oreo/Changelog.md</string>
-	<string name="six_telegram_title">Telegram Chat</string>
-	<string name="six_telegram_summary">Help for S.i.X users</string>
-	<string name="six_telegram_url">https://t.me/joinchat/A7jQhkP8Y8q_tAv4Yy3Qfg</string>
+	<string name="six_changelog_url">https://github.com/SiXROM-OREO/changelog/blob/oreo-r6/Changelog.md</string>
+    <string name="six_pushbullet_title">Pushbullet Updates</string>
+	<string name="six_pushbullet_summary">Join for rom updates and news</string>
+	<string name="six_pushbullet_url">http://tinyurl.com/yaxf3asd</string>
 	<string name="six_gplus_title">Google+ Community</string>
 	<string name="six_gplus_summary">Join for news and updates</string>
 	<string name="six_gplus_url">https://plus.google.com/u/0/communities/108198916369516028494</string>

@@ -23,7 +23,7 @@
         <PreferenceScreen android:key="six_center_header"
             android:layout="@layout/six_center_header">
             <intent android:action="android.intent.action.VIEW"
-            android:data="http://tinyurl.com/yaa4fpc3" />
+            android:data="http://tinyurl.com/y8wmr796" />
         </PreferenceScreen>
 
     <PreferenceCategory
@@ -73,14 +73,14 @@
                     android:data="@string/six_gplus_url" />
         </Preference>
 
-        <!-- Telegram -->
+        <!-- Pushbullet -->
         <Preference
-                android:key="six_telegram"
-                android:title="@string/six_telegram_title"
-                android:summary="@string/six_telegram_summary">
+                android:key="six_pushbullet"
+                android:title="@string/six_pushbullet_title"
+                android:summary="@string/six_pushbullet_summary">
                 <intent
                     android:action="android.intent.action.VIEW"
-                    android:data="@string/six_telegram_url" />
+                    android:data="@string/six_pushbullet_url" />
         </Preference>
 				
         <!-- Theme -->
