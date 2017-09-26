@@ -133,6 +133,7 @@
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
 
     <!-- App Ops Categories -->
+    <string name="app_ops_settings_title">App Ops</string>
     <string name="app_ops_cat_location">Location</string>
     <string name="app_ops_cat_personal">Personal</string>
     <string name="app_ops_cat_messaging">Messaging</string>
@@ -207,5 +208,4 @@
     <string name="app_ops_app_start_foreground">start foreground</string>
     <string name="app_ops_answer_phone_calls">answer calls</string>
     <string name="app_ops_boot_completed">auto start</string>
-
 </resources>
