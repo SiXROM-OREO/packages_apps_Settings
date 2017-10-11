@@ -215,4 +215,9 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Three Finger Gesture</string>
     <string name="three_finger_gesture_summary">Swipe 3 fingers to take a screenshot</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 </resources>
