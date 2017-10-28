@@ -22,8 +22,9 @@
     <!-- SiX Header -->
         <PreferenceScreen android:key="six_center_header"
             android:layout="@layout/six_center_header">
-            <intent android:action="android.intent.action.VIEW"
-            android:data="http://tinyurl.com/y8wmr796" />
+            <intent android:targetPackage="org.omnirom.games.eggs" 
+        android:action="android.intent.action.MAIN" 
+        android:targetClass="org.omnirom.games.eggs.StartingActivity" />
         </PreferenceScreen>
 
     <PreferenceCategory
@@ -127,21 +128,21 @@
                 android:title="@string/six_developer"
                 android:summary="@string/six_developer_name" />
 
-        <com.android.settings.DividerPreference
+        <!-- <com.android.settings.DividerPreference
                 android:key="six_shamu"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/six_shamu"
-                android:summary="@string/six_shamu_name" />
+                android:summary="@string/six_shamu_name" /> -->
 
-        <com.android.settings.DividerPreference
+        <!-- <com.android.settings.DividerPreference
                 android:key="six_angler"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/six_angler"
-                android:summary="@string/six_angler_name" />
+                android:summary="@string/six_angler_name" /> -->
 
         <com.android.settings.DividerPreference
                 android:key="six_shoutouts"

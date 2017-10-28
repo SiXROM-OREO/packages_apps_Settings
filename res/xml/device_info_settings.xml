@@ -21,7 +21,7 @@
         <PreferenceScreen android:key="six_header"
             android:layout="@layout/six_about_header">
             <intent android:action="android.intent.action.VIEW"
-            android:data="https://t.me/joinchat/A7jQhkP8Y8q_tAv4Yy3Qfg" />
+            android:data="https://t.me/joinchat/A7jQhkOP5lTuiG-Q7xq4CA" />
         </PreferenceScreen>
 
         <!-- SiXROM Info -->
